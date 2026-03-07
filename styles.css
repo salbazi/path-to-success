@@ -73,6 +73,11 @@ body {
     color: var(--dark-gray);
 }
 
+main {
+    background-color: var(--purple);
+    padding: 10px
+}
+
 header {
     text-align: center;
     padding: 30px;
@@ -92,7 +97,7 @@ header p {
     color: var(--white);
 }
 
-nav {
+nav { /* menu */
     background-color: var(--yellow);
     padding: 10px;
     text-align: center;
@@ -106,19 +111,19 @@ nav h2{
     margin-bottom: 15px;
 }
 
-nav a {
+nav a { /* menu end */
     background-color: var(--white);
-    color: var(--purple);
-    font-weight: bold;
+    font-family: 'Inter';
+    font-weight: 750;
     display: block;
     text-align: center;
-    padding: 10px;
-    margin: 5px auto;
+    padding: 15px;
+    margin: 10px auto;
+    width: 85%;
     text-decoration: none; 
-    border-radius: 5px;
 }
 
-section h2 {
+section h2 { /* our services */
     font-family: 'Kavoon', cursive;
     font-size: 2em;
     color: var(--white);
@@ -147,14 +152,14 @@ section p {
     margin-bottom: 15px;
 }
 
-#services article {
+main article {
     background-color: var(--white);
     border-radius: 5px;
     margin: 20px;
     padding: 15px
 }
 
-#services img {
+main article img { /* images */
     display: block;
     margin-bottom: 10px;
 }
