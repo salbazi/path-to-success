@@ -69,13 +69,13 @@ table {
 body {
     max-width: 450px;
     margin: 0 auto;
-    background-color: var(--purple);
+    background-color: var(--lavender);
     color: var(--dark-gray);
 }
 
 header {
     text-align: center;
-    padding: 20px 10px;
+    padding: 30px;
     background-color: var(--purple)
 }
 
@@ -137,7 +137,55 @@ section h4 {
     font-family: 'Inter';
     font-weight: bold;
     font-size: 1.15em;
-    color: var(--white);
+    color: var(--purple);
     margin-bottom: 15px;
+}
+
+section p {
+    font-family: 'inter';
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+#services article {
+    background-color: var(--white);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px
+}
+
+#services img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#why-choose-us {
+    background-color: var(--pink);
+    padding: 10px;
+}
+
+#why-choose-us li {
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item1 {
+    background-color: var(--teal);
+}
+
+.item2 {
+    background-color: var(--lavender);
+}
+
+.item3 {
+    background-color: var(--yellow);
+}
+
+.item4 {
+    background-color: var(--white);
 }
 
