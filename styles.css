@@ -75,19 +75,20 @@ body {
 
 main {
     background-color: var(--purple);
-    padding: 10px
+    padding: 10px;
 }
 
 header {
     text-align: center;
     padding: 30px;
-    background-color: var(--purple)
+    background-color: var(--purple);
 }
 
 header h1 {
     font-family: 'Kavoon', cursive;
     font-size: 3em;
-    color: var(--white)
+    color: var(--white);
+    margin-bottom: 10px;
 }
 
 header p {
@@ -114,7 +115,7 @@ nav h2{
 nav a { /* menu end */
     background-color: var(--white);
     font-family: 'Inter';
-    font-weight: 750;
+    font-weight: 780;
     display: block;
     text-align: center;
     padding: 15px;
@@ -127,7 +128,8 @@ section h2 { /* our services */
     font-family: 'Kavoon', cursive;
     font-size: 2em;
     color: var(--white);
-    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 section h3 {
@@ -135,20 +137,21 @@ section h3 {
     font-size: 1.5em;
     font-weight: bold;
     color: var(--yellow);
-    padding: 10px
+    margin-left: 10px;
 }
 
 section h4 {
     font-family: 'Inter';
-    font-weight: bold;
+    font-weight: 800;
     font-size: 1.15em;
     color: var(--purple);
     margin-bottom: 15px;
 }
 
 section p {
-    font-family: 'inter';
+    font-family: 'Inter';
     font-size: 1em;
+    line-height: 1.5;
     margin-bottom: 15px;
 }
 
@@ -169,13 +172,19 @@ main article img { /* images */
     padding: 10px;
 }
 
+#why-choose-us ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 20px;
+}
+
 #why-choose-us li {
     font-family: 'Inter';
     font-weight: bold;
     text-align: center;
-    margin: 5px 0;
-    border-radius: 5px;
-    padding: 10px;
+    padding: 25px;
+    border-radius: 10px;
 }
 
 .item1 {
@@ -194,3 +203,28 @@ main article img { /* images */
     background-color: var(--white);
 }
 
+#pricing section {
+    margin-bottom: 25px;
+}
+
+#pricing table {
+    width: auto;
+    margin: 10px auto 20px auto;
+    border: 2px solid var(--yellow);
+    background-color: var(--white);
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#pricing th { /* service/cost */
+    background-color: var(--yellow);
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+#pricing th,
+#pricing td {
+    border: 1px solid var(--yellow);
+    padding: 16px 18px;
+    font-family: 'Inter';
+}
