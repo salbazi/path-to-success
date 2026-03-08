@@ -75,19 +75,19 @@ body {
 
 main {
     background-color: var(--purple);
-    padding: 10px;
+    padding-top: 20px;
 }
 
 header {
     text-align: center;
     padding: 30px;
     background-color: var(--purple);
+    color: var(--white)
 }
 
 header h1 {
     font-family: 'Kavoon', cursive;
     font-size: 3em;
-    color: var(--white);
     margin-bottom: 10px;
 }
 
@@ -115,7 +115,7 @@ nav h2{
 nav a { /* menu end */
     background-color: var(--white);
     font-family: 'Inter';
-    font-weight: 780;
+    font-weight: bold;
     display: block;
     text-align: center;
     padding: 15px;
@@ -169,14 +169,14 @@ main article img { /* images */
 
 #why-choose-us {
     background-color: var(--pink);
-    padding: 10px;
+    padding: 15px;
 }
 
 #why-choose-us ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    margin: 20px;
+    padding: 20px;
 }
 
 #why-choose-us li {
@@ -203,6 +203,9 @@ main article img { /* images */
     background-color: var(--white);
 }
 
+#pricing {
+    padding-top: 15px;
+}
 #pricing section {
     margin-bottom: 25px;
 }
@@ -219,7 +222,7 @@ main article img { /* images */
 #pricing th { /* service/cost */
     background-color: var(--yellow);
     font-family: 'Inter';
-    font-weight: bold;
+    font-weight: 800;
 }
 
 #pricing th,
@@ -227,4 +230,44 @@ main article img { /* images */
     border: 1px solid var(--yellow);
     padding: 16px 18px;
     font-family: 'Inter';
+}
+
+#firstStep {
+    background-color: var(--pink);
+    padding: 15px;
+}
+
+#firstStep p {
+    color: var(--white);
+}
+
+#firstStep a { /* button */
+    display: block;
+    width: 80%;
+    margin: 20px auto; 
+
+    font-family: 'Inter';
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+
+    background-color: var(--white);
+    color: var(--dark-gray);
+    padding: 20px 18px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 8px var(--dark-gray);
+}
+
+footer {
+    background-color: var(--purple);
+    font-family: 'Inter';
+    font-size: 12px;
+    text-align: center;
+    padding: 50px; 
+    color: var(--white);
+}
+
+footer a {
+    color: var(--white);
+    margin-left: 60px;
 }
